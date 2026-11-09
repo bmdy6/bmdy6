@@ -11,7 +11,7 @@ Open-source tools for AI agents — MCP servers, agent skills and small macOS ap
 | 项目 | 做什么 | 标签 |
 |:---|:---|:---|
 | [**research-mcp**](https://github.com/bmdy6/research-mcp)<br><sub>✅ 可用</sub> | 一次搜 GitHub / HN / B 站 / 掘金 / 全网；读 PR 审查与行内评论、图表数据、B 站文字稿 | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![搜索](https://img.shields.io/badge/%E6%90%9C%E7%B4%A2-57606A?style=flat-square) ![读原文](https://img.shields.io/badge/%E8%AF%BB%E5%8E%9F%E6%96%87-57606A?style=flat-square) ![CLI](https://img.shields.io/badge/CLI-57606A?style=flat-square) |
-| **knowledge-mcp**<br><sub>🚧 即将开源</sub> | Markdown + Git 的个人知识库：搜索定位到行号，写入前校验版本、给出 diff | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![知识库](https://img.shields.io/badge/%E7%9F%A5%E8%AF%86%E5%BA%93-57606A?style=flat-square) ![检索](https://img.shields.io/badge/%E6%A3%80%E7%B4%A2-57606A?style=flat-square) |
+| [**knowledge-mcp**](https://github.com/bmdy6/knowledge-mcp)<br><sub>✅ 可用</sub> | Markdown + Git 的个人知识库：搜索定位到行号，写入前校验版本、给出 diff | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![知识库](https://img.shields.io/badge/%E7%9F%A5%E8%AF%86%E5%BA%93-57606A?style=flat-square) ![检索](https://img.shields.io/badge/%E6%A3%80%E7%B4%A2-57606A?style=flat-square) |
 | **image-mcp**<br><sub>🚧 即将开源</sub> | 文生图 + 图生图，21 种中文风格模板；自带 key，结果存本地 | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![生图](https://img.shields.io/badge/%E7%94%9F%E5%9B%BE-57606A?style=flat-square) ![图生图](https://img.shields.io/badge/%E5%9B%BE%E7%94%9F%E5%9B%BE-57606A?style=flat-square) |
 
 ## 🧩 Agent 技能 · 教 agent 做一件事
