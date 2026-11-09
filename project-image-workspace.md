@@ -8,6 +8,8 @@
 
 这个创作方向有两种入口：网页用于方案沟通、参考图管理和连续修改；image-mcp 提供给 AI agent 使用的文生图、图生图和本地保存能力。
 
-目前这是个人项目案例，image-mcp 尚未公开。本页介绍已有实现与设计取舍，不提供公开体验或安装入口。
+[media-workspace 网页工作区](https://github.com/bmdy6/media-workspace)与 [image-mcp](https://github.com/bmdy6/image-mcp)均已独立开源，分别提供完整网页应用和 MCP 工具入口，按各自仓库说明安装，不共享线上后端。两者均使用自己的模型 API key。
+
+网页工作区保留 React、FastAPI 和 SQLite。通过实际后端接口调用真实模型，完成方案生成、蓝色茶壶文生图、改成橙色茶壶、下载及重复确认幂等检查；网页完整交互另外使用合成服务验收。默认原图保存在本地 24 小时，可在有效期内继续改图；新参考图上传和长期存储需要配置 COS。真实 COS 上传与麦克风识别尚未验证，具体范围见[网页验收记录](https://github.com/bmdy6/media-workspace/blob/main/docs/validation.md)。
 
 [返回主页](https://github.com/bmdy6)
