@@ -12,7 +12,7 @@ Tools for AI agents, and personal projects built around real workflows.
 |:---|:---|:---|
 | **research-mcp** | 搜 GitHub / HN / B 站 / 掘金 / 全网；读取 PR 审查与行内评论、图表数据、B 站文字稿 | [仓库与安装](https://github.com/bmdy6/research-mcp) · 已开源 |
 | **knowledge-mcp** | 用 Markdown + Git 管理个人知识库：搜索定位到行号，写入前校验版本、预览 diff | [仓库与安装](https://github.com/bmdy6/knowledge-mcp) · 已开源 |
-| **image-mcp** | 文生图、图生图，自带 API key，结果保存到本地；项目说明也介绍相关的生图工作区 | [项目说明](https://github.com/bmdy6/bmdy6/blob/main/project-image-workspace.md) · 个人项目，MCP 尚未公开 |
+| [**image-mcp**](https://github.com/bmdy6/image-mcp) | 文生图、图生图，自带 API key，结果保存到本地；项目说明也介绍相关的生图工作区 | [项目说明](https://github.com/bmdy6/bmdy6/blob/main/project-image-workspace.md) · 个人项目，MCP 尚未公开 |
 
 ## 🧩 Agent 技能 · 教 agent 做一件事
 
