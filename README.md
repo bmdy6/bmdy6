@@ -41,8 +41,8 @@ Tools for AI agents, and personal projects built around real workflows.
 
 | 项目 | 做什么 | 入口与状态 |
 |:---|:---|:---|
-| **awesome-picks** | 按用途整理 GitHub 项目，区分收藏、试用和在用，保留亮点与取舍 | [项目收藏](https://github.com/bmdy6/awesome-picks) · ![已公开](https://img.shields.io/badge/状态-已公开-2ea44f?style=flat-square) |
-| **awesome-browser-games-zh** | 中文网页游戏导航，按玩法提供官方游玩与源码入口；实际对局仍待逐项验证 | [游戏列表](https://github.com/bmdy6/awesome-browser-games-zh) · [网页游戏馆](https://bmdy6.github.io/awesome-browser-games-zh/) · ![持续整理](https://img.shields.io/badge/状态-持续整理-d29922?style=flat-square) |
+| **awesome-picks** | 按用途整理 GitHub 项目，区分收藏、试用和在用，保留亮点与取舍 | [项目收藏](https://github.com/bmdy6/awesome-picks) · 已开源 |
+| **awesome-browser-games-zh** | 中文网页游戏导航，按玩法提供官方游玩与源码入口 | [游戏列表](https://github.com/bmdy6/awesome-browser-games-zh) · [网页游戏馆](https://bmdy6.github.io/awesome-browser-games-zh/) · 已开源 |
 
 ## 怎么用
 
@@ -64,6 +64,6 @@ MCP 服务、Agent 技能、应用和精选资源分别展示；功能相关的�
 未公开源码的项目链接到公开案例，不能指向私有仓库或承诺开源时间。
 状态表示公开与维护情况，不代表全部功能已经实机或生产验收；具体边界以对应仓库记录为准。
 新增资源行模板：
-| **repo-name** | 按仓库实际内容写一句用途 | [仓库](https://github.com/bmdy6/repo-name) · ![已公开](https://img.shields.io/badge/状态-已公开-2ea44f?style=flat-square) |
+| **repo-name** | 按仓库实际内容写一句用途 | [仓库](https://github.com/bmdy6/repo-name) · 已开源 |
 示例只用合成数据；不提交真实会话、个人记录、密钥和内部部署地址。
 -->
