@@ -31,7 +31,7 @@ Tools for AI agents, and personal projects built around real workflows.
 | [**skill-style-polish**](https://github.com/bmdy6/skill-style-polish) | 从本地 agent 会话提取中文文风档案，再按你的口吻润色 | Python · MIT |
 | [**skill-design-from-sites**](https://github.com/bmdy6/skill-design-from-sites) | 从喜欢的网站提取设计规范，每个设计值都能追溯到 CSS 来源 | JavaScript · MIT |
 | [**skill-readme-from-code**](https://github.com/bmdy6/skill-readme-from-code) | 读代码写 README：实际运行命令核对用法，每句说明都能回到代码验证 | JavaScript · MIT |
-| [**skill-tg-group-assistant**](https://github.com/bmdy6/skill-tg-group-assistant) | 给 Telegram 群建立 Hermes 群助手：明确用途、创建 Bot、部署并分层验收 | Python · MIT |
+| [**hermes-group-agent**](https://github.com/bmdy6/hermes-group-agent) | Telegram 群助手全套：@ 回答、群上下文、GitHub/Linear 只读、群里 /follow 管理的推特日报（Apify） | Python · MIT |
 
 ## 应用
 
