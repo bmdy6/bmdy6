@@ -22,6 +22,7 @@ Tools for AI agents, and personal projects built around real workflows.
 | [**knowledge-mcp**](https://github.com/bmdy6/knowledge-mcp) | 用 Markdown + Git 管理个人知识库：搜索定位到行号，写入前校验版本、预览 diff | Python · MIT |
 | [**image-mcp**](https://github.com/bmdy6/image-mcp) | 文生图、图生图，自带 API key，结果保存到本地 | Python · MIT |
 | [**mac-doctor-mcp**](https://github.com/bmdy6/mac-doctor-mcp) | 让 AI 看 Mac 内存（按 AI 工具归类）和存储，出带确认码的清理方案，先移入隔离区、可回滚 | Python · MIT |
+| [**footage-mcp**](https://github.com/bmdy6/footage-mcp) | 给 AI 做视频找免费素材：一次搜 Pexels、Pixabay、Wikimedia、Internet Archive 和 NASA，先抽帧看内容再裁剪下载，自动记录授权和署名 | Python · MIT |
 
 ## Agent 技能
 
