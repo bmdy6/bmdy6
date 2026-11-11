@@ -8,7 +8,7 @@ Tools for AI agents, and personal projects built around real workflows.
 
 [MCP 服务](#mcp-服务) · [Agent 技能](#agent-技能) · [应用](#应用) · [产品实践](#产品实践) · [精选资源](#精选资源)
 
-![MCP 服务 3](https://img.shields.io/badge/MCP_服务-3-6E56CF?style=flat-square) ![Agent 技能 4](https://img.shields.io/badge/Agent_技能-4-0A7EA4?style=flat-square) ![macOS 应用 1](https://img.shields.io/badge/macOS_应用-1-111111?style=flat-square&logo=apple&logoColor=white) ![Web 应用 3](https://img.shields.io/badge/Web_应用-3-2F6F4E?style=flat-square)
+![MCP 服务 4](https://img.shields.io/badge/MCP_服务-4-6E56CF?style=flat-square) ![Agent 技能 4](https://img.shields.io/badge/Agent_技能-4-0A7EA4?style=flat-square) ![macOS 应用 1](https://img.shields.io/badge/macOS_应用-1-111111?style=flat-square&logo=apple&logoColor=white) ![Web 应用 3](https://img.shields.io/badge/Web_应用-3-2F6F4E?style=flat-square)
 
 </div>
 
@@ -21,6 +21,7 @@ Tools for AI agents, and personal projects built around real workflows.
 | [**research-mcp**](https://github.com/bmdy6/research-mcp) | 一次搜 GitHub、HN、B 站、掘金和全网，还能读 PR 审查评论、图表数据和 B 站文字稿 | Python · MIT |
 | [**knowledge-mcp**](https://github.com/bmdy6/knowledge-mcp) | 用 Markdown + Git 管理个人知识库：搜索定位到行号，写入前校验版本、预览 diff | Python · MIT |
 | [**image-mcp**](https://github.com/bmdy6/image-mcp) | 文生图、图生图，自带 API key，结果保存到本地 | Python · MIT |
+| [**mac-doctor-mcp**](https://github.com/bmdy6/mac-doctor-mcp) | 让 AI 看 Mac 内存（按 AI 工具归类）和存储，出带确认码的清理方案，先移入隔离区、可回滚 | Python · MIT |
 
 ## Agent 技能
 
