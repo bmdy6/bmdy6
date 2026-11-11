@@ -8,7 +8,7 @@ Tools for AI agents, and personal projects built around real workflows.
 
 [MCP 服务](#mcp-服务) · [Agent 技能](#agent-技能) · [应用](#应用) · [产品实践](#产品实践) · [精选资源](#精选资源)
 
-![MCP 服务 4](https://img.shields.io/badge/MCP_服务-4-6E56CF?style=flat-square) ![Agent 技能 4](https://img.shields.io/badge/Agent_技能-4-0A7EA4?style=flat-square) ![macOS 应用 1](https://img.shields.io/badge/macOS_应用-1-111111?style=flat-square&logo=apple&logoColor=white) ![Web 应用 3](https://img.shields.io/badge/Web_应用-3-2F6F4E?style=flat-square)
+![MCP 服务 4](https://img.shields.io/badge/MCP_服务-4-6E56CF?style=flat-square) ![Agent 技能 5](https://img.shields.io/badge/Agent_技能-5-0A7EA4?style=flat-square) ![macOS 应用 1](https://img.shields.io/badge/macOS_应用-1-111111?style=flat-square&logo=apple&logoColor=white) ![Web 应用 3](https://img.shields.io/badge/Web_应用-3-2F6F4E?style=flat-square)
 
 </div>
 
@@ -33,6 +33,7 @@ Tools for AI agents, and personal projects built around real workflows.
 | [**skill-style-polish**](https://github.com/bmdy6/skill-style-polish) | 从本地 agent 会话提取中文文风档案，再按你的口吻润色 | Python · MIT |
 | [**skill-design-from-sites**](https://github.com/bmdy6/skill-design-from-sites) | 从喜欢的网站提取设计规范，每个设计值都能追溯到 CSS 来源 | JavaScript · MIT |
 | [**skill-readme-from-code**](https://github.com/bmdy6/skill-readme-from-code) | 读代码写 README：实际运行命令核对用法，每句说明都能回到代码验证 | JavaScript · MIT |
+| [**skill-bot-keepalive**](https://github.com/bmdy6/skill-bot-keepalive) | 限定时长的 agent 保活：后台脚本每分钟心跳，agent 每十几分钟看一眼并接力，到点自动停并报告，工具调用约为逐分钟写心跳的十分之一 | Python · MIT |
 | [**hermes-group-agent**](https://github.com/bmdy6/hermes-group-agent) | Telegram 群助手全套：@ 回答、群上下文、GitHub/Linear 只读、群里 /follow 管理的推特日报（Apify） | Python · MIT |
 
 ## 应用
