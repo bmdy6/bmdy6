@@ -6,9 +6,9 @@
 
 Tools for AI agents, and personal projects built around real workflows.
 
-[MCP 服务](#mcp-服务) · [Agent 技能](#agent-技能) · [应用](#应用) · [产品实践](#产品实践) · [精选资源](#精选资源)
+[MCP 服务](#mcp-服务) · [Agent 技能](#agent-技能) · [命令行工具](#命令行工具) · [应用](#应用) · [产品实践](#产品实践) · [精选资源](#精选资源)
 
-![MCP 服务 4](https://img.shields.io/badge/MCP_服务-4-6E56CF?style=flat-square) ![Agent 技能 5](https://img.shields.io/badge/Agent_技能-5-0A7EA4?style=flat-square) ![macOS 应用 1](https://img.shields.io/badge/macOS_应用-1-111111?style=flat-square&logo=apple&logoColor=white) ![Web 应用 3](https://img.shields.io/badge/Web_应用-3-2F6F4E?style=flat-square)
+![MCP 服务 5](https://img.shields.io/badge/MCP_服务-5-6E56CF?style=flat-square) ![Agent 技能 5](https://img.shields.io/badge/Agent_技能-5-0A7EA4?style=flat-square) ![命令行工具 1](https://img.shields.io/badge/命令行工具-1-2F6F4E?style=flat-square) ![macOS 应用 1](https://img.shields.io/badge/macOS_应用-1-111111?style=flat-square&logo=apple&logoColor=white) ![Web 应用 3](https://img.shields.io/badge/Web_应用-3-2F6F4E?style=flat-square)
 
 </div>
 
@@ -35,6 +35,14 @@ Tools for AI agents, and personal projects built around real workflows.
 | [**skill-readme-from-code**](https://github.com/bmdy6/skill-readme-from-code) | 读代码写 README：实际运行命令核对用法，每句说明都能回到代码验证 | JavaScript · MIT |
 | [**skill-bot-keepalive**](https://github.com/bmdy6/skill-bot-keepalive) | 让 Grok 云端电脑不休眠的方法，适用于在 Grok 上用 Claude：后台脚本每分钟心跳，agent 每十几分钟看一眼并接力，到点自动停并报告，工具调用约为逐分钟写心跳的十分之一 | Python · MIT |
 | [**hermes-group-agent**](https://github.com/bmdy6/hermes-group-agent) | Telegram 群助手全套：@ 回答、群上下文、GitHub/Linear 只读、群里 /follow 管理的推特日报（Apify） | Python · MIT |
+
+## 命令行工具
+
+装好后可在终端使用，也可以交给本机脚本调用。
+
+| 项目 | 做什么 | 技术 · 许可 |
+|:---|:---|:---|
+| [**ai-vault**](https://github.com/bmdy6/ai-vault) | 集中管理 AI 工具和脚本的 API Key，可选用自己的 Supabase 加密同步，并配对新设备 | Python + Supabase · MIT |
 
 ## 应用
 
@@ -69,7 +77,7 @@ Tools for AI agents, and personal projects built around real workflows.
 
 <!--
 维护原则：只收录有明确用途和实际实现的项目，说明使用价值。
-MCP 服务、Agent 技能、应用、产品实践和精选资源分别展示；功能相关的独立项目保留各自名称和入口。
+MCP 服务、Agent 技能、命令行工具、应用、产品实践和精选资源分别展示；功能相关的独立项目保留各自名称和入口。
 项目列统一使用小写英文标识并链接到仓库，多词用连字符：MCP 为 *-mcp，技能为 skill-*，应用沿用仓库名。
 中文名称和用途放描述列；最后一列写主要技术和许可证，以仓库实际 LICENSE 为准。
 新增或下线项目时同步更新顶部徽章里的数量。
