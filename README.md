@@ -8,7 +8,7 @@ Tools for AI agents, and personal projects built around real workflows.
 
 [MCP 服务](#mcp-服务) · [Agent 技能](#agent-技能) · [命令行工具](#命令行工具) · [应用](#应用) · [产品实践](#产品实践) · [精选资源](#精选资源)
 
-![MCP 服务 5](https://img.shields.io/badge/MCP_服务-5-6E56CF?style=flat-square) ![Agent 技能 5](https://img.shields.io/badge/Agent_技能-5-0A7EA4?style=flat-square) ![命令行工具 1](https://img.shields.io/badge/命令行工具-1-2F6F4E?style=flat-square) ![macOS 应用 1](https://img.shields.io/badge/macOS_应用-1-111111?style=flat-square&logo=apple&logoColor=white) ![Web 应用 3](https://img.shields.io/badge/Web_应用-3-2F6F4E?style=flat-square)
+![MCP 服务 5](https://img.shields.io/badge/MCP_服务-5-6E56CF?style=flat-square) ![Agent 技能 5](https://img.shields.io/badge/Agent_技能-5-0A7EA4?style=flat-square) ![命令行工具 3](https://img.shields.io/badge/命令行工具-3-2F6F4E?style=flat-square) ![macOS 应用 1](https://img.shields.io/badge/macOS_应用-1-111111?style=flat-square&logo=apple&logoColor=white) ![Web 应用 3](https://img.shields.io/badge/Web_应用-3-2F6F4E?style=flat-square)
 
 </div>
 
@@ -42,6 +42,8 @@ Tools for AI agents, and personal projects built around real workflows.
 
 | 项目 | 做什么 | 技术 · 许可 |
 |:---|:---|:---|
+| [**jingwei**](https://github.com/bmdy6/jingwei) | 精卫：终端里的通用 Agent，ReAct 循环调用运行时注册的工具，SQLite 全文 + 本地向量两层记忆，每次会话后复盘、把经验攒成规则注入下次提示词 | Python · MIT |
+| [**repo-tutor**](https://github.com/bmdy6/repo-tutor) | 把陌生代码库变成新人课程：先导读一次请求怎么走，再按流程分课、配自测题，每句讲解都带源码出处并自动检查漏讲。[Flask 示例](https://github.com/bmdy6/repo-tutor/tree/main/examples/flask) | Python · MIT |
 | [**ai-vault**](https://github.com/bmdy6/ai-vault) | 集中管理 AI 工具和脚本的 API Key，可选用自己的 Supabase 加密同步，并配对新设备 | Python + Supabase · MIT |
 
 ## 应用
