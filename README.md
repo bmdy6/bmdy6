@@ -6,7 +6,7 @@
 
 Tools for AI agents, and personal projects built around real workflows.
 
-![MCP 服务 5](https://img.shields.io/badge/MCP_服务-5-24292F?style=flat-square) ![Agent 技能 5](https://img.shields.io/badge/Agent_技能-5-24292F?style=flat-square) ![命令行工具 3](https://img.shields.io/badge/命令行工具-3-24292F?style=flat-square) ![macOS 应用 1](https://img.shields.io/badge/macOS_应用-1-24292F?style=flat-square&logo=apple&logoColor=white) ![Web 应用 3](https://img.shields.io/badge/Web_应用-3-24292F?style=flat-square)
+![MCP 服务 4](https://img.shields.io/badge/MCP_服务-4-24292F?style=flat-square) ![Agent 技能 5](https://img.shields.io/badge/Agent_技能-5-24292F?style=flat-square) ![命令行工具 3](https://img.shields.io/badge/命令行工具-3-24292F?style=flat-square) ![macOS 应用 1](https://img.shields.io/badge/macOS_应用-1-24292F?style=flat-square&logo=apple&logoColor=white) ![Web 应用 3](https://img.shields.io/badge/Web_应用-3-24292F?style=flat-square)
 
 [MCP 服务](#mcp-服务) · [Agent 技能](#agent-技能) · [命令行工具](#命令行工具) · [应用](#应用) · [产品实践](#产品实践) · [精选资源](#精选资源)
 
@@ -33,7 +33,6 @@ Tools for AI agents, and personal projects built around real workflows.
 |:---|:---|:---|
 | [**research-mcp**](https://github.com/bmdy6/research-mcp) | 一次搜 GitHub、HN、B 站、掘金和全网，还能读 PR 审查评论、图表数据和 B 站文字稿 | Python · MIT |
 | [**knowledge-mcp**](https://github.com/bmdy6/knowledge-mcp) | 用 Markdown + Git 管理个人知识库：搜索定位到行号，写入前校验版本、预览 diff | Python · MIT |
-| [**image-mcp**](https://github.com/bmdy6/image-mcp) | 文生图、图生图，自带 API key，结果保存到本地 | Python · MIT |
 | [**mac-doctor-mcp**](https://github.com/bmdy6/mac-doctor-mcp) | 让 AI 检查 Mac 内存和存储，出带确认码的清理方案，先移入隔离区、可回滚 | Python · MIT |
 | [**footage-mcp**](https://github.com/bmdy6/footage-mcp) | 给 AI 做视频找免费素材：一次搜 5 个来源，先抽帧看内容再下载，自动记录授权和署名 | Python · MIT |
 
@@ -66,7 +65,6 @@ Tools for AI agents, and personal projects built around real workflows.
 | 项目 | 做什么 | 技术 · 许可 |
 |:---|:---|:---|
 | [**stylepolish**](https://github.com/bmdy6/stylepolish) | macOS 菜单栏润色应用：在输入框停笔后给出润色建议，保留你的口吻，发送仍由你确认。[下载最新版](https://github.com/bmdy6/stylepolish/releases/latest) | Swift · MIT |
-| [**media-workspace**](https://github.com/bmdy6/media-workspace) | AI 生图工作区：先聊方案、确认后生成，下载结果并接着上一张图修改。[项目说明](project-image-workspace.md) | React + FastAPI · MIT |
 
 ## 产品实践
 
@@ -74,6 +72,7 @@ Tools for AI agents, and personal projects built around real workflows.
 
 | 项目 | 解决什么问题 | 技术 · 许可 |
 |:---|:---|:---|
+| [**visionary**](https://github.com/bmdy6/visionary) | AI 生图工作台：网页、AI 助手和 MCP 三个入口共用积分；参考图继续改、作品历史、管理后台，agent 用个人 Token 积分够就直接生成。由原 media-workspace 和 image-mcp 合并而来 | React + FastAPI · MIT |
 | [**health-records**](https://github.com/bmdy6/health-records) | 健康记录：饮食、训练、体重和目标共用一份记录，聊天时记下，网页回看。[项目说明](project-health-records.md) | TypeScript · MIT |
 | [**studybuddy**](https://github.com/bmdy6/studybuddy) | 知了：孩子知道第一步做什么，家长在微信日报里看见学了什么。[项目说明](project-studybuddy.md) | React + FastAPI · AGPL-3.0 |
 
