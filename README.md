@@ -46,7 +46,7 @@ Tools for AI agents, and personal projects built around real workflows.
 | [**skill-style-polish**](https://github.com/bmdy6/skill-style-polish) | 从本地 agent 会话提取中文文风档案，再按你的口吻润色 | Python · MIT |
 | [**skill-design-from-sites**](https://github.com/bmdy6/skill-design-from-sites) | 从喜欢的网站提取设计规范，每个设计值都能追溯到 CSS 来源 | JavaScript · MIT |
 | [**skill-readme-from-code**](https://github.com/bmdy6/skill-readme-from-code) | 读代码写 README：实际运行命令核对用法，每句说明都能回到代码验证 | JavaScript · MIT |
-| [**skill-bot-keepalive**](https://github.com/bmdy6/skill-bot-keepalive) | 让 Grok 云端电脑在限定时间内不休眠：后台脚本写心跳，agent 隔十几分钟接力一次，到点自动停 | Python · MIT |
+| [**skill-bot-keepalive**](https://github.com/bmdy6/skill-bot-keepalive) | 让你电脑上的客户端一直连着 Grok 云端电脑的远程会话，持续用 Claude：连接检查、省额度保活、断线修复 | Python · MIT |
 | [**hermes-group-agent**](https://github.com/bmdy6/hermes-group-agent) | Telegram 群助手：@ 回答、共享群上下文、只读 GitHub/Linear、每日推特摘要 | Python · MIT |
 
 ## 命令行工具
