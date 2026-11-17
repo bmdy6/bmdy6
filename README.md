@@ -2,6 +2,8 @@
 
 # bmdy6
 
+[个人主页 · xiaoliang.tech](https://xiaoliang.tech)
+
 **给 AI agent 做工具，也把它们放进每天在用的产品里。**
 
 Tools for AI agents, and personal projects built around real workflows.
@@ -84,6 +86,7 @@ Tools for AI agents, and personal projects built around real workflows.
 
 | 项目 | 内容 | 入口 |
 |:---|:---|:---|
+| [**xiaoliang-tech**](https://github.com/bmdy6/xiaoliang-tech) | 个人主页：作品、书房和做法，纯静态单页 | [个人主页](https://xiaoliang.tech) |
 | [**awesome-picks**](https://github.com/bmdy6/awesome-picks) | 按用途整理 GitHub 项目，区分收藏、试用和在用，保留亮点与取舍 | [项目收藏](https://github.com/bmdy6/awesome-picks) |
 | [**awesome-browser-games-zh**](https://github.com/bmdy6/awesome-browser-games-zh) | 中文网页游戏导航，按玩法提供官方游玩与源码入口 | [网页游戏馆](https://bmdy6.github.io/awesome-browser-games-zh/) |
 
