@@ -6,7 +6,7 @@
 
 Tools for AI agents, and personal projects built around real workflows.
 
-![MCP 服务 4](https://img.shields.io/badge/MCP_服务-4-24292F?style=flat-square) ![Agent 技能 5](https://img.shields.io/badge/Agent_技能-5-24292F?style=flat-square) ![命令行工具 3](https://img.shields.io/badge/命令行工具-3-24292F?style=flat-square) ![macOS 应用 1](https://img.shields.io/badge/macOS_应用-1-24292F?style=flat-square&logo=apple&logoColor=white) ![Web 应用 3](https://img.shields.io/badge/Web_应用-3-24292F?style=flat-square)
+![MCP 服务 4](https://img.shields.io/badge/MCP_服务-4-24292F?style=flat-square) ![Agent 技能 6](https://img.shields.io/badge/Agent_技能-6-24292F?style=flat-square) ![命令行工具 4](https://img.shields.io/badge/命令行工具-4-24292F?style=flat-square) ![macOS 应用 1](https://img.shields.io/badge/macOS_应用-1-24292F?style=flat-square&logo=apple&logoColor=white) ![Web 应用 3](https://img.shields.io/badge/Web_应用-3-24292F?style=flat-square)
 
 [MCP 服务](#mcp-服务) · [Agent 技能](#agent-技能) · [命令行工具](#命令行工具) · [应用](#应用) · [产品实践](#产品实践) · [精选资源](#精选资源)
 
@@ -43,6 +43,7 @@ Tools for AI agents, and personal projects built around real workflows.
 | 项目 | 做什么 | 技术 · 许可 |
 |:---|:---|:---|
 | [**skill-style-polish**](https://github.com/bmdy6/skill-style-polish) | 从本地 agent 会话提取中文文风档案，再按你的口吻润色 | Python · MIT |
+| [**agent-skills**](https://github.com/bmdy6/agent-skills) | 日常开发用的 13 个 Agent 技能：提交前复核、写 Issue、学习沉淀和任务交接 | Python + Markdown · MIT |
 | [**skill-design-from-sites**](https://github.com/bmdy6/skill-design-from-sites) | 从喜欢的网站提取设计规范，每个设计值都能追溯到 CSS 来源 | JavaScript · MIT |
 | [**skill-readme-from-code**](https://github.com/bmdy6/skill-readme-from-code) | 读代码写 README：实际运行命令核对用法，每句说明都能回到代码验证 | JavaScript · MIT |
 | [**skill-bot-keepalive**](https://github.com/bmdy6/skill-bot-keepalive) | 让你电脑上的客户端一直连着 Grok 云端电脑的远程会话，持续用 Claude：连接检查、省额度保活、断线修复 | Python · MIT |
@@ -56,6 +57,7 @@ Tools for AI agents, and personal projects built around real workflows.
 |:---|:---|:---|
 | [**jingwei**](https://github.com/bmdy6/jingwei) | 精卫：终端里的通用 Agent，两层本地记忆，每次会话后复盘并把经验攒成规则 | Python · MIT |
 | [**repo-tutor**](https://github.com/bmdy6/repo-tutor) | 把陌生代码库变成新人课程：按调用流程分课，每段讲解带源码出处。[Flask 示例](https://github.com/bmdy6/repo-tutor/tree/main/examples/flask) | Python · MIT |
+| [**inspiration-radar**](https://github.com/bmdy6/inspiration-radar) | 为开发者生成 GitHub 项目与文章灵感日报，核验证据后永久去重，输出本地 Markdown 和 JSON | Python · MIT |
 | [**ai-vault**](https://github.com/bmdy6/ai-vault) | 集中管理 AI 工具和脚本的 API Key，可选加密同步到自己的 Supabase | Python + Supabase · MIT |
 
 ## 应用
