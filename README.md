@@ -60,6 +60,7 @@ Tools for AI agents, and personal projects built around real workflows.
 | [**jingwei**](https://github.com/bmdy6/jingwei) | 精卫：终端里的通用 Agent，两层本地记忆，每次会话后复盘并把经验攒成规则 | Python · MIT |
 | [**repo-tutor**](https://github.com/bmdy6/repo-tutor) | 把陌生代码库变成新人课程：按调用流程分课，每段讲解带源码出处。[Flask 示例](https://github.com/bmdy6/repo-tutor/tree/main/examples/flask) | Python · MIT |
 | [**inspiration-radar**](https://github.com/bmdy6/inspiration-radar) | 为开发者生成 GitHub 项目与文章灵感日报，核验证据后永久去重，输出本地 Markdown 和 JSON | Python · MIT |
+| [**wechat-mac-export**](https://github.com/bmdy6/wechat-mac-export) | 离线导出 macOS 微信聊天记录：只处理加密副本，逐页校验后导出 JSONL、Markdown 和统计，附 Agent 技能 | Python · MIT |
 | [**ai-vault**](https://github.com/bmdy6/ai-vault) | 集中管理 AI 工具和脚本的 API Key，可选加密同步到自己的 Supabase | Python + Supabase · MIT |
 
 ## 应用
