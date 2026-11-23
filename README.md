@@ -1,111 +1,51 @@
+低维护：作为作品展示，Issue 可能不及时回复
+
 <div align="center">
 
 # bmdy6
-
-[个人主页 · xiaoliang.tech](https://xiaoliang.tech)
 
 **给 AI agent 做工具，也把它们放进每天在用的产品里。**
 
 Tools for AI agents, and personal projects built around real workflows.
 
-![MCP 服务 4](https://img.shields.io/badge/MCP_服务-4-24292F?style=flat-square) ![Agent 技能 6](https://img.shields.io/badge/Agent_技能-6-24292F?style=flat-square) ![命令行工具 4](https://img.shields.io/badge/命令行工具-4-24292F?style=flat-square) ![macOS 应用 1](https://img.shields.io/badge/macOS_应用-1-24292F?style=flat-square&logo=apple&logoColor=white) ![Web 应用 3](https://img.shields.io/badge/Web_应用-3-24292F?style=flat-square)
-
-[MCP 服务](#mcp-服务) · [Agent 技能](#agent-技能) · [命令行工具](#命令行工具) · [应用](#应用) · [产品实践](#产品实践) · [精选资源](#精选资源)
+[常维护](#常维护) · [作品展示](#作品展示)
 
 </div>
 
-## 从这几个开始
+## 常维护
 
-<table>
-<tr>
-<td width="50%" valign="top"><a href="https://github.com/bmdy6/research-mcp"><img src="https://raw.githubusercontent.com/bmdy6/research-mcp/main/docs/readme/showcase/banner.zh-CN.webp" width="400" alt="research-mcp：5 个渠道同时搜索的真实终端输出"></a><br><strong><a href="https://github.com/bmdy6/research-mcp">research-mcp</a></strong> · MCP 服务<br>一次搜 GitHub、HN、B 站、掘金和全网，再把原文读回来。</td>
-<td width="50%" valign="top"><a href="https://github.com/bmdy6/stylepolish"><img src="https://raw.githubusercontent.com/bmdy6/stylepolish/main/docs/images/promo-poster.jpg" width="400" alt="StylePolish：输入框下方显示整句润色预览"></a><br><strong><a href="https://github.com/bmdy6/stylepolish">stylepolish</a></strong> · macOS 应用<br>在输入框停笔后帮你润色，保留你的口吻。<a href="https://github.com/bmdy6/stylepolish/releases/latest">下载</a></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://github.com/bmdy6/knowledge-mcp"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bmdy6/knowledge-mcp/main/docs/images/zh/hero-dark.png"><img src="https://raw.githubusercontent.com/bmdy6/knowledge-mcp/main/docs/images/zh/hero-light.png" width="400" alt="knowledge-mcp：搜索返回行号和片段，再预览修改 diff"></picture></a><br><strong><a href="https://github.com/bmdy6/knowledge-mcp">knowledge-mcp</a></strong> · MCP 服务<br>Markdown + Git 的个人知识库，搜索定位到行号，写入前预览 diff。</td>
-<td width="50%" valign="top"><a href="https://github.com/bmdy6/footage-mcp"><img src="https://raw.githubusercontent.com/bmdy6/footage-mcp/main/docs/inspect-nasa.jpg" width="400" alt="footage-mcp：从 NASA 视频里抽出的 6 帧拼图"></a><br><strong><a href="https://github.com/bmdy6/footage-mcp">footage-mcp</a></strong> · MCP 服务<br>给 AI 做视频找免费素材，先抽帧看内容再下载，带授权和署名。</td>
-</tr>
-</table>
-
-## MCP 服务
-
-让 agent 多一种能力：装好服务，配置到 agent 就能调用。
+持续使用与维护的项目，安装与验证边界见各仓库说明。
 
 | 项目 | 做什么 | 技术 · 许可 |
 |:---|:---|:---|
-| [**research-mcp**](https://github.com/bmdy6/research-mcp) | 一次搜 GitHub、HN、B 站、掘金和全网，还能读 PR 审查评论、图表数据和 B 站文字稿 | Python · MIT |
 | [**knowledge-mcp**](https://github.com/bmdy6/knowledge-mcp) | 用 Markdown + Git 管理个人知识库：搜索定位到行号，写入前校验版本、预览 diff | Python · MIT |
+| [**research-mcp**](https://github.com/bmdy6/research-mcp) | 一次搜 GitHub、HN、B 站、掘金和全网，还能读 PR 审查评论、图表数据和 B 站文字稿 | Python · MIT |
+| [**zhiyin**](https://github.com/bmdy6/zhiyin) | 本机微信记录的统计、原文检索和回复上下文；[微信导出工具](https://github.com/bmdy6/zhiyin/tree/main/wechat-export) 也在仓内 | Python · MIT |
+| **job-agent（私有）** | 求职工作流工具；不提供公开源码入口 | 私有项目 |
+| [**stylepolish**](https://github.com/bmdy6/stylepolish) | macOS 菜单栏润色应用：在输入框停笔后给出润色建议，保留你的口吻，发送仍由你确认。[下载最新版](https://github.com/bmdy6/stylepolish/releases/latest) | Swift · MIT |
+| [**agent-skills**](https://github.com/bmdy6/agent-skills) | 日常 Agent 技能集，含 design-from-sites、readme-from-code、style-polish、bot-keepalive | 多语言 · MIT |
+| [**xiaoliang-tech**](https://github.com/bmdy6/xiaoliang-tech) | 个人主页：作品、书房和做法 | HTML / CSS / JavaScript · MIT |
+
+四个独立技能已收进 [agent-skills/skills/](https://github.com/bmdy6/agent-skills/tree/main/skills)：[design-from-sites](https://github.com/bmdy6/agent-skills/tree/main/skills/design-from-sites)、[readme-from-code](https://github.com/bmdy6/agent-skills/tree/main/skills/readme-from-code)、[style-polish](https://github.com/bmdy6/agent-skills/tree/main/skills/style-polish)、[bot-keepalive](https://github.com/bmdy6/agent-skills/tree/main/skills/bot-keepalive)。微信记录先用 [zhiyin/wechat-export](https://github.com/bmdy6/zhiyin/tree/main/wechat-export) 导出。
+
+## 作品展示
+
+低维护：作为作品展示，Issue 可能不及时回复。部分历史项目已归档，状态以仓库页面为准。
+
+| 项目 | 做什么 | 技术 · 许可 |
+|:---|:---|:---|
 | [**mac-doctor-mcp**](https://github.com/bmdy6/mac-doctor-mcp) | 让 AI 检查 Mac 内存和存储，出带确认码的清理方案，先移入隔离区、可回滚 | Python · MIT |
-| [**zhiyin**](https://github.com/bmdy6/zhiyin) | 知音：用自己的微信记录，问 AI「这条怎么回」。按你过去的回复和口吻出草稿，6 条聊天规则自检，只出草稿不自动发 | Python · MIT |
 | [**footage-mcp**](https://github.com/bmdy6/footage-mcp) | 给 AI 做视频找免费素材：一次搜 5 个来源，先抽帧看内容再下载，自动记录授权和署名 | Python · MIT |
-
-## Agent 技能
-
-教 agent 做好一件事：放进 agent 的 skills 目录即可使用。
-
-| 项目 | 做什么 | 技术 · 许可 |
-|:---|:---|:---|
-| [**skill-style-polish**](https://github.com/bmdy6/skill-style-polish) | 从本地 agent 会话提取中文文风档案，再按你的口吻润色 | Python · MIT |
-| [**agent-skills**](https://github.com/bmdy6/agent-skills) | 日常开发用的 13 个 Agent 技能：提交前复核、写 Issue、学习沉淀和任务交接 | Python + Markdown · MIT |
-| [**skill-design-from-sites**](https://github.com/bmdy6/skill-design-from-sites) | 从喜欢的网站提取设计规范，每个设计值都能追溯到 CSS 来源 | JavaScript · MIT |
-| [**skill-readme-from-code**](https://github.com/bmdy6/skill-readme-from-code) | 读代码写 README：实际运行命令核对用法，每句说明都能回到代码验证 | JavaScript · MIT |
-| [**skill-bot-keepalive**](https://github.com/bmdy6/skill-bot-keepalive) | 让你电脑上的客户端一直连着 Grok 云端电脑的远程会话，持续用 Claude：连接检查、省额度保活、断线修复 | Python · MIT |
 | [**hermes-group-agent**](https://github.com/bmdy6/hermes-group-agent) | Telegram 群助手：@ 回答、共享群上下文、只读 GitHub/Linear、每日推特摘要 | Python · MIT |
-
-## 命令行工具
-
-装好后可在终端使用，也可以交给本机脚本调用。
-
-| 项目 | 做什么 | 技术 · 许可 |
-|:---|:---|:---|
 | [**jingwei**](https://github.com/bmdy6/jingwei) | 精卫：终端里的通用 Agent，两层本地记忆，每次会话后复盘并把经验攒成规则 | Python · MIT |
 | [**repo-tutor**](https://github.com/bmdy6/repo-tutor) | 把陌生代码库变成新人课程：按调用流程分课，每段讲解带源码出处。[Flask 示例](https://github.com/bmdy6/repo-tutor/tree/main/examples/flask) | Python · MIT |
 | [**inspiration-radar**](https://github.com/bmdy6/inspiration-radar) | 为开发者生成 GitHub 项目与文章灵感日报，核验证据后永久去重，输出本地 Markdown 和 JSON | Python · MIT |
-| [**wechat-mac-export**](https://github.com/bmdy6/wechat-mac-export) | 离线导出 macOS 微信聊天记录：只处理加密副本，逐页校验后导出 JSONL、Markdown 和统计，附 Agent 技能 | Python · MIT |
 | [**ai-vault**](https://github.com/bmdy6/ai-vault) | 集中管理 AI 工具和脚本的 API Key，可选加密同步到自己的 Supabase | Python + Supabase · MIT |
-
-## 应用
-
-直接装来用。
-
-| 项目 | 做什么 | 技术 · 许可 |
-|:---|:---|:---|
-| [**stylepolish**](https://github.com/bmdy6/stylepolish) | macOS 菜单栏润色应用：在输入框停笔后给出润色建议，保留你的口吻，发送仍由你确认。[下载最新版](https://github.com/bmdy6/stylepolish/releases/latest) | Swift · MIT |
-
-## 产品实践
-
-从一次对话到持续使用，需要自行部署并配置模型和存储。
-
-| 项目 | 解决什么问题 | 技术 · 许可 |
-|:---|:---|:---|
 | [**visionary**](https://github.com/bmdy6/visionary) | AI 生图工作台：网页、AI 助手和 MCP 三个入口共用积分；参考图继续改、作品历史、管理后台，agent 用个人 Token 积分够就直接生成。由原 media-workspace 和 image-mcp 合并而来 | React + FastAPI · MIT |
 | [**health-records**](https://github.com/bmdy6/health-records) | 健康记录：饮食、训练、体重和目标共用一份记录，聊天时记下，网页回看。[项目说明](project-health-records.md) | TypeScript · MIT |
 | [**studybuddy**](https://github.com/bmdy6/studybuddy) | 知了：孩子知道第一步做什么，家长在微信日报里看见学了什么。[项目说明](project-studybuddy.md) | React + FastAPI · AGPL-3.0 |
-
-## 精选资源
-
-按用途整理的项目和游戏导航。
-
-| 项目 | 内容 | 入口 |
-|:---|:---|:---|
-| [**xiaoliang-tech**](https://github.com/bmdy6/xiaoliang-tech) | 个人主页：作品、书房和做法，纯静态单页 | [个人主页](https://xiaoliang.tech) |
-| [**awesome-picks**](https://github.com/bmdy6/awesome-picks) | 按用途整理 GitHub 项目，区分收藏、试用和在用，保留亮点与取舍 | [项目收藏](https://github.com/bmdy6/awesome-picks) |
-| [**awesome-browser-games-zh**](https://github.com/bmdy6/awesome-browser-games-zh) | 中文网页游戏导航，按玩法提供官方游玩与源码入口 | [网页游戏馆](https://bmdy6.github.io/awesome-browser-games-zh/) |
+| [**awesome-picks**](https://github.com/bmdy6/awesome-picks) | 按用途整理 GitHub 项目，保留亮点与取舍；含 [浏览器游戏分类](https://github.com/bmdy6/awesome-picks/tree/main/categories/browser-games) | [项目收藏](https://github.com/bmdy6/awesome-picks) |
 
 ---
 
-<sub>安装方式、运行要求和问题反馈见各仓库。各项目的测试范围与未验证项见[验收记录](docs/acceptance-2026-11-09.md)。</sub>
-
-<!--
-维护原则：只收录有明确用途和实际实现的项目，说明使用价值。
-MCP 服务、Agent 技能、命令行工具、应用、产品实践和精选资源分别展示；功能相关的独立项目保留各自名称和入口。
-项目列统一使用小写英文标识并链接到仓库，多词用连字符：MCP 为 *-mcp，技能为 skill-*，应用沿用仓库名。
-中文名称和用途放描述列；最后一列写主要技术和许可证，以仓库实际 LICENSE 为准。
-新增或下线项目时同步更新顶部徽章里的数量。
-保留已有公开工具，不用旧演示凑数量。
-未公开源码的项目链接到公开案例，不能指向私有仓库或承诺开源时间。
-收录表示已公开，不代表全部功能已经实机或生产验收；具体边界以对应仓库记录为准。
-新增行模板：
-| [**repo-name**](https://github.com/bmdy6/repo-name) | 按仓库实际内容写一句用途 | 技术 · 许可 |
-示例只用合成数据；不提交真实会话、个人记录、密钥和内部部署地址。
--->
+<sub>安装方式、运行要求和问题反馈见各仓库。公开源码、自动化测试、实机验收与线上部署的范围分别以对应仓库记录为准。</sub>
