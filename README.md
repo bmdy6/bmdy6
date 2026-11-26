@@ -38,6 +38,7 @@ Tools for AI agents, and personal projects built around real workflows.
 | [**mac-doctor-mcp**](https://github.com/bmdy6/mac-doctor-mcp) | 让 AI 检查 Mac 内存和存储，出带确认码的清理方案，先移入隔离区、可回滚 | Python · MIT |
 | [**zhiyin**](https://github.com/bmdy6/zhiyin) | 知音：用自己的微信记录，问 AI「这条怎么回」。按你过去的回复和口吻出草稿，6 条聊天规则自检，只出草稿不自动发 | Python · MIT |
 | [**footage-mcp**](https://github.com/bmdy6/footage-mcp) | 给 AI 做视频找免费素材：一次搜 5 个来源，先抽帧看内容再下载，自动记录授权和署名 | Python · MIT |
+| [**job-agent-mcp**](https://github.com/bmdy6/job-agent-mcp) | 让 Claude Code / Codex 帮你求职：采集岗位、评分、写招呼语，在 BOSS、智联、猎聘、51job 拟人投递并核对原站回执，HR 回复推送 Telegram | Python · MIT |
 
 ## Agent 技能
 
